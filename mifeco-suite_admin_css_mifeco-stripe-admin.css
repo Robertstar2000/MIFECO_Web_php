@@ -1,0 +1,198 @@
+/**
+ * All of the CSS for the Stripe integration admin functionality.
+ *
+ * @package    Mifeco_Suite
+ * @subpackage Mifeco_Suite/admin/css
+ */
+
+/* Stripe Settings */
+.mifeco-stripe-settings-wrap {
+    max-width: 800px;
+}
+
+.mifeco-stripe-description {
+    margin-bottom: 20px;
+}
+
+.mifeco-settings-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.mifeco-settings-section h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#mifeco-webhook-setup-result {
+    margin-top: 10px;
+}
+
+.spinner {
+    float: none;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+/* Product Creation Form */
+.mifeco-create-product-form {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.mifeco-create-product-form h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.mifeco-form-row {
+    margin-bottom: 15px;
+}
+
+.mifeco-form-row label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.mifeco-form-row input[type="text"],
+.mifeco-form-row input[type="number"],
+.mifeco-form-row textarea,
+.mifeco-form-row select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.mifeco-form-row textarea {
+    min-height: 100px;
+}
+
+.mifeco-form-actions {
+    margin-top: 20px;
+}
+
+.mifeco-product-result-details {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+/* Subscription Management */
+.mifeco-subscription-details-container {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+
+.mifeco-subscription-details-container h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.mifeco-subscription-details-container table {
+    margin-top: 0;
+}
+
+/* User Profile Fields */
+.mifeco-user-subscription-fields {
+    margin-top: 20px;
+}
+
+.mifeco-subscription-field {
+    margin-bottom: 15px;
+}
+
+.mifeco-subscription-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.mifeco-subscription-field select,
+.mifeco-subscription-field input[type="text"],
+.mifeco-subscription-field input[type="date"] {
+    width: 100%;
+    max-width: 25em;
+    padding: 8px;
+}
+
+/* Status Badges */
+.mifeco-status-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.mifeco-status-active {
+    background-color: #edf7ed;
+    color: #1e8e3e;
+}
+
+.mifeco-status-inactive,
+.mifeco-status-cancelled {
+    background-color: #fce8e6;
+    color: #d93025;
+}
+
+.mifeco-status-pending {
+    background-color: #fef7e0;
+    color: #f9ab00;
+}
+
+/* Stripe Test Cards Table */
+.widefat.mifeco-test-cards-table {
+    margin: 15px 0;
+}
+
+.widefat.mifeco-test-cards-table th {
+    font-weight: 600;
+}
+
+.widefat.mifeco-test-cards-table code {
+    background: none;
+    padding: 0;
+}
+
+/* Plan Settings Cards */
+.mifeco-plan-settings-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.mifeco-plan-settings-card h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.mifeco-plan-settings-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.mifeco-plan-settings-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
